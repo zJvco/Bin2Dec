@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Bin2Dec</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>Bin2Dec</h1>
+        </div>
+        <div class="content">
+            <label>Digite até 8 Digitos de 0 e 1</label>
+            <input type="text" name="number" id="number" maxlength="8" onkeypress="return !isNaN(event.key);">
+            <span class="txtError">Error Message</span>
+        </div>
+        <div class="btn">
+            <button id="button">Gerar</button>
+        </div>
+
+        <div class="result">
+            <label>Resultado</label>
+            <div class="container-result">
+                <span class="result-space">Result Message</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

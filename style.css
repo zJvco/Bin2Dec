@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background: linear-gradient(to right, #136a8a, #267871);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.container {
+    background-color: #FFF;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #202020;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo h1 {
+    color: #136a8a;
+    cursor: default;
+}
+
+.content {
+    margin: 20px;
+}
+
+.content label {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.content input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.content span {
+    margin: 5px 0;
+    font-size: 14px;
+    color: red;
+    display: none;
+}
+
+.content.error span {
+    display: block;
+}
+
+.btn {
+    text-align: center;
+    margin: 20px;
+}
+
+.btn button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    cursor: pointer;
+    background: linear-gradient(to right, #136a8a, #267871);
+}
+
+.btn button:active {
+    background: linear-gradient(to right, #0c5874, #14635c);
+}
+
+.result {
+    margin: 20px;
+    text-align: center;
+    border-top: 2px solid #ccc;
+}
+
+.result label {
+    display: block;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.container-result {
+    border: 1px solid #ccc;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-result span {
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container-result.sucess {
+    border: 1px solid #008000;
+    color: #008000;
+}
+
+.container-result.sucess span {
+    display: block;
+
+}
